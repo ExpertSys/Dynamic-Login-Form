@@ -1,11 +1,11 @@
    function validateData(){     
+            const usernameField = document.forms["loginForm"]["username"].value;
+            const passwordField = document.forms["loginForm"]["password"].value;
+      
             let usernameProgress = 0;
             let passwordProgress = 0;
             let dbSampleUsername = "test";
             let dbSamplePassword = "tomato";
-
-            const usernameField = document.forms["loginForm"]["username"].value;
-            const passwordField = document.forms["loginForm"]["password"].value;
 
             if (usernameField !== ""){
                 usernameProgress += 50;
